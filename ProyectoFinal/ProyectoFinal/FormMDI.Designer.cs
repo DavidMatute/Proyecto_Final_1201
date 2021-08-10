@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinal
 {
-    partial class Form1
+    partial class FormMDI
     {
         /// <summary>
         /// Required designer variable.
