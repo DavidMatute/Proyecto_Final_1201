@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
-    public partial class Form1 : Form
+    public partial class FrmPrincipal : Syncfusion.Windows.Forms.Office2010Form
     {
-        public Form1()
+        public FrmPrincipal()
         {
             InitializeComponent();
         }
