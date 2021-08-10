@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
@@ -32,6 +33,37 @@ namespace ProyectoFinal
                 return;
             }
             errorProvider1.SetError(txt_Contrasena, "");
+
+            string cadena = "Data Source=DESKTOP-U0I84OT\\SQLEXPRESS; Initial Catalog=TICKETS; Integrated Security=True";
+
+            bool EsUsuarioValido = false;
+
+            using (SqlConnection conexion = new SqlConnection(cadena))
+            {
+                string consulta = "SELECT 1 FROM USUARIOS WHERE CODIGO = '" + txt_Usuario.Text + "' AND CLAVE = '" + txt_Contrasena.Text + "';";
+                conexion.Open();
+
+                using (SqlCommand comando = new SqlCommand(consulta, conexion))
+                {
+                    EsUsuarioValido = Convert.ToBoolean(comando.ExecuteScalar());
+                }
+
+                if (EsUsuarioValido)
+                {
+                    MessageBox.Show("Bienvenido");
+                }
+                else
+                {
+                    MessageBox.Show("Usuario o contraseña invalida");
+                }
+            }
+
+            //SqlConnection _conexion = new SqlConnection(cadena);
+            //_conexion.Open();
+            //MessageBox.Show("Conectada");
+
+            //_conexion.Close();
+            //MessageBox.Show("Desconectada");
 
             /*Canectar a la base de datos
 
