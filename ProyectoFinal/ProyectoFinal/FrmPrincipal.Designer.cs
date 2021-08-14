@@ -33,10 +33,10 @@
             this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
             this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripTabItem6 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripTabItem6 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
             this.toolStripTabItem4.Panel.SuspendLayout();
@@ -136,39 +136,9 @@
             this.toolStripTabItem4.Panel.TabIndex = 2;
             this.toolStripTabItem4.Panel.Text = "Usuarios";
             this.toolStripTabItem4.Position = 0;
-            this.toolStripTabItem4.Size = new System.Drawing.Size(58, 19);
+            this.toolStripTabItem4.Size = new System.Drawing.Size(68, 30);
             this.toolStripTabItem4.Tag = "4";
             this.toolStripTabItem4.Text = "Usuarios";
-            // 
-            // toolStripTabItem5
-            // 
-            this.toolStripTabItem5.Name = "toolStripTabItem5";
-            // 
-            // ribbonControlAdv1.ribbonPanel2
-            // 
-            this.toolStripTabItem5.Panel.Name = "ribbonPanel2";
-            this.toolStripTabItem5.Panel.ScrollPosition = 0;
-            this.toolStripTabItem5.Panel.TabIndex = 3;
-            this.toolStripTabItem5.Panel.Text = "Clientes";
-            this.toolStripTabItem5.Position = 1;
-            this.toolStripTabItem5.Size = new System.Drawing.Size(54, 19);
-            this.toolStripTabItem5.Tag = "5";
-            this.toolStripTabItem5.Text = "Clientes";
-            // 
-            // toolStripTabItem6
-            // 
-            this.toolStripTabItem6.Name = "toolStripTabItem6";
-            // 
-            // ribbonControlAdv1.ribbonPanel3
-            // 
-            this.toolStripTabItem6.Panel.Name = "ribbonPanel3";
-            this.toolStripTabItem6.Panel.ScrollPosition = 0;
-            this.toolStripTabItem6.Panel.TabIndex = 4;
-            this.toolStripTabItem6.Panel.Text = "Categorías";
-            this.toolStripTabItem6.Position = 2;
-            this.toolStripTabItem6.Size = new System.Drawing.Size(68, 19);
-            this.toolStripTabItem6.Tag = "6";
-            this.toolStripTabItem6.Text = "Categorías";
             // 
             // toolStripEx1
             // 
@@ -196,6 +166,36 @@
             this.toolStripButton1.Size = new System.Drawing.Size(23, 78);
             this.toolStripButton1.Text = "Lista de Usuarios";
             this.toolStripButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // toolStripTabItem5
+            // 
+            this.toolStripTabItem5.Name = "toolStripTabItem5";
+            // 
+            // ribbonControlAdv1.ribbonPanel2
+            // 
+            this.toolStripTabItem5.Panel.Name = "ribbonPanel2";
+            this.toolStripTabItem5.Panel.ScrollPosition = 0;
+            this.toolStripTabItem5.Panel.TabIndex = 3;
+            this.toolStripTabItem5.Panel.Text = "Clientes";
+            this.toolStripTabItem5.Position = 1;
+            this.toolStripTabItem5.Size = new System.Drawing.Size(64, 30);
+            this.toolStripTabItem5.Tag = "5";
+            this.toolStripTabItem5.Text = "Clientes";
+            // 
+            // toolStripTabItem6
+            // 
+            this.toolStripTabItem6.Name = "toolStripTabItem6";
+            // 
+            // ribbonControlAdv1.ribbonPanel3
+            // 
+            this.toolStripTabItem6.Panel.Name = "ribbonPanel3";
+            this.toolStripTabItem6.Panel.ScrollPosition = 0;
+            this.toolStripTabItem6.Panel.TabIndex = 4;
+            this.toolStripTabItem6.Panel.Text = "Categorías";
+            this.toolStripTabItem6.Position = 2;
+            this.toolStripTabItem6.Size = new System.Drawing.Size(78, 30);
+            this.toolStripTabItem6.Tag = "6";
+            this.toolStripTabItem6.Text = "Categorías";
             // 
             // FrmPrincipal
             // 
